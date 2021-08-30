@@ -1,0 +1,106 @@
+#searchBar{
+    width:75%;
+    height:22px;
+    border-radius:3px;
+    border:1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size:12px;
+}
+#searchWrapper{
+    position:relative;
+}
+#searchWrapper::after{
+    content: '🔍';
+    position: absolute;
+    top:2px;
+    right:15px;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family:'Quicksand',sans-serif;;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 102px 1fr 200px;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container div {
+    padding: 10px;
+    border: 1px solid #000;
+}
+.content-large{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.header div {
+    padding: 0px;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 102px;
+}
+.header-logo-cell{
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+}
+.header-logo-img{
+    width:75%;
+}
+.header-menu{
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.footer div {
+    padding: 0px;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1fr;
+}
+.footer-left {
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+.footer-center {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.footer-right {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.header-search{
+    grid-column-start: 3;
+    -ms-grid-column-span: 1;
+}
+.character >img {
+    max-height: 100px;
+    grid-area:image;
+}
+.image-panel{
+    background-image: url('BrynBackground1.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
