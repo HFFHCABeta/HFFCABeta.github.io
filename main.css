@@ -1,8 +1,8 @@
 #searchBar{
     width:75%;
     height:22px;
-    border-radius:3px;
-    border:1px solid #eaeaea;
+    /*border-radius:3px;
+    border:1px solid #eaeaea;*/
     padding: 5px 10px;
     font-size:12px;
 }
@@ -38,7 +38,7 @@ body {
 }
 .container div {
     padding: 10px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 .content-large{
     grid-column-start: 1;
