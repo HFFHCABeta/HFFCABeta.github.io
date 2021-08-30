@@ -99,6 +99,9 @@ body {
     max-height: 100px;
     grid-area:image;
 }
+.igPost {
+    max-height: 100px;
+}
 .image-panel{
     background-image: url('BrynBackground1.JPG');
     background-repeat: no-repeat;
