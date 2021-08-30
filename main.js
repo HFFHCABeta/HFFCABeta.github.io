@@ -1,8 +1,8 @@
 
-const charactersList = document.getElementById('charactersList');
+/*const charactersList = document.getElementById('charactersList');
 let hpCharacters = [];
 
-const searchBar = document.getElementById('searchBar';
+const searchBar = document.getElementById('searchBar');
 
 searchBar.addEventListener('keyup', (e) => {
     console.log(e);
@@ -33,4 +33,4 @@ const displayCharacters = (characters) => {
     charactersList.innerHTML = htmlString;
 };
 
-loadCharacters();
+loadCharacters();*/
