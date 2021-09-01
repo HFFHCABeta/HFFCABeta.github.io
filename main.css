@@ -72,7 +72,7 @@ a:hover {
     -ms-grid-column-span: 1;
 }
 .header-logo-img{
-    width:75%;
+    width: 60%;
 }
 .header-menu{
     grid-column-start: 2;

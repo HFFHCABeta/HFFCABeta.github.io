@@ -9,12 +9,31 @@
     <title>Calendar</title>
 </head>
 <body>
-    <div class="header">
 
+    <div class="header">
     </div>
     <div class="calendar-image-panel">
         <div class="calendar-container">
-            <iframe id="embCalendar" class="iFrame-calendar"  src="https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK&amp;"></iframe>
+
+            <iframe id="embCalendar" class="iFrame-calendar"></iframe>
+            <script>
+                var url_string = (window.location.href).toLowerCase();
+                var url = new URL(url_string);
+                var s = url.searchParams.get("s");
+                var iframe = document.getElementById('embCalendar');
+                
+                    switch (s) {
+                        case '1': 
+                            iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                            break;
+                        case '2': /*Live events*/
+                            iframe.src = "https://calendar.google.com/calendar/embed?src=7c635e2ehcq6kp61djvgebf6t8%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                            break;
+                        case '3': /*education*/
+                            iframe.src = "https://calendar.google.com/calendar/embed?src=bmojftm7c7lhk4t85g7om02bfc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                            break;
+                }
+            </script>
         </div>
     </div>
     <div class="footer">
