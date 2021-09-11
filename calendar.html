@@ -29,6 +29,7 @@
                 var url = new URL(url_string);
                 var s = url.searchParams.get("s");
                 var iframe = document.getElementById('embCalendar');
+                // Calendars are not pointing to the community gmail account as of 9/10/21
                 iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
                     switch (s) {
                         case '1': /*Calls*/

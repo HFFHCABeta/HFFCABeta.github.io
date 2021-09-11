@@ -29,10 +29,12 @@ a:hover {
     padding: 10px;
     box-sizing: border-box;
 }
+/*
 .container div {
-    /* padding: 20px; */
-    /* border: 1px solid #000; */
+    padding: 20px; 
+    border: 1px solid #000;
 }
+*/
 /* Content */
 .content-large{
     grid-column-start: 1;
@@ -43,6 +45,14 @@ a:hover {
     padding: 1em 4em;
 }
 /* Image */
+.image-panel2{
+    background-image: url('sunsetNoText.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* outline: 2px solid rgb(116, 12, 12); */
+    padding: 20em;
+    background-position: bottom left;
+}
 .image-panel{
     background-image: url('BrynBackground1.JPG');
     background-repeat: no-repeat;
@@ -51,6 +61,7 @@ a:hover {
     padding: 20em;
     background-position: bottom left;
 }
+
 /* Header */
 .header {
     grid-column-start: 1;
@@ -58,10 +69,12 @@ a:hover {
     padding: 1%;
     border-bottom: 1px solid rgb(148, 143, 143);
 }
+/*
 .header div {
-    /* padding: 0px; */
-    /* outline: 2px solid rgb(116, 12, 12); */
+     padding: 0px; 
+    outline: 2px solid rgb(116, 12, 12);
 }
+*/
 .header-grid{
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -147,9 +160,11 @@ a:hover {
     padding: 15% 0 0 10%;
     /* border: 1px solid #000; */
 }
+/*
 .header-icons div {
-    /* outline: 2px solid rgb(143, 138, 138); */
+     outline: 2px solid rgb(143, 138, 138); 
 }
+*/
 .icon::before {
     display: inline-block;
     font-style: normal;
@@ -349,9 +364,11 @@ a:hover {
   .navbar {
       overflow: hidden;
       background-color: #fff;
-      font-family:Playfair Display;
-      font-size: 1vw;
-      font-weight:bold;
+      /* font-family:Playfair Display; */
+      font-family:'Avenir';
+      /* src: url('/fonts/AvenirLTStd-Black.otf)'); */
+      font-size: 1.3vw;
+      font-weight:100;
     }
     
     /* Links inside the navbar */
@@ -378,9 +395,9 @@ a:hover {
       /* color: #000; */
       padding: 14px 16px !important;
       background-color: #fff;
-      font-family: Playfair Display;
-      font-size:1vw;
-      font-weight: bold;
+      font-family: Avenir;
+      font-size:1.3vw;
+      font-weight: 100;
       margin: 0; /* Important for vertical align on mobile phones */
     }
     
