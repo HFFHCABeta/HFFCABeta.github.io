@@ -87,7 +87,7 @@ a:hover {
 }
 .header-logo-img{
     max-width: 90%;
-    content: url('assets/images/hffhca_logo.png');
+    content: url('hffhca_logo.png');
 }
 .header-menu{
     grid-column-start: 2;
