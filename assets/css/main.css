@@ -77,9 +77,8 @@ a:hover {
 */
 .header-grid{
     display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 102px;
-    
+    grid-template-columns: 15% 75% 10%;
+    grid-template-rows: 102px;    
 }
 .header-logo-cell{
     grid-column-start: 1;
@@ -88,6 +87,7 @@ a:hover {
 .header-logo-img{
     max-width: 90%;
     content: url('../images/hffhca_logo.png');
+    padding-top:1em;
 }
 .header-menu{
     grid-column-start: 2;
@@ -178,14 +178,14 @@ a:hover {
       -ms-grid-column-span: 1;
   }
 .header-icon-search::before {
-    content:  url('../images/search.svg');
+    content:  url('../images/search.png');
   }
 .header-icon-account {
     grid-column-start: 8;
     -ms-grid-column-span: 1;
 }
 .header-icon-account::before {
-    content: url('../images/person.svg');
+    content: url('../images/contact.png');
 }
 .header-icon-shop {
     grid-column-start: 9;
@@ -193,7 +193,7 @@ a:hover {
 }
 .header-icon-shop::before {
     /* font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f290"; */
-    content:  url('../images/bag.svg');
+    content:  url('../images/shop.png');
 }
 /* Image */
 .character >img {
@@ -415,7 +415,7 @@ a:hover {
         background-color: #fff;
         font-family:'Avenir';
         /* src: url('/fonts/AvenirLTStd-Black.otf)'); */
-        font-size: 1.3vw;
+        font-size: 1.2vw;
         font-weight:100;
         }
     
