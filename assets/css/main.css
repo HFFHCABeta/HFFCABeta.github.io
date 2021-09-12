@@ -87,7 +87,7 @@ a:hover {
 }
 .header-logo-img{
     width: 45%;
-    content: url('../images/hffhca_logo.png');
+    content: url('assets/images/hffhca_logo.png');
 }
 .header-menu{
     grid-column-start: 2;
