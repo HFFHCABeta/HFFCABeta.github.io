@@ -19,9 +19,9 @@ a:hover {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto 3fr 20%;
+    grid-template-rows: 6em 3fr 6em;
     gap: 10px;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     box-sizing: border-box;
 }
 /*
@@ -36,6 +36,7 @@ a:hover {
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 1%;
+    padding-bottom: 6%;
     border-bottom: 1px solid rgb(148, 143, 143);
 }
 /*
