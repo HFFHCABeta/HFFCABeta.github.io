@@ -1,5 +1,4 @@
-body {
-    margin: 0;
+margin: 0;
 }
 a {
     text-decoration: none;
@@ -13,7 +12,7 @@ a:hover {
 .container {
     width: 99vw;
     height: 100vh;
-
+    
     font-family: Playfair Display; 
     font-weight: bold;
     /* font-size: 20px; */
@@ -32,41 +31,6 @@ a:hover {
 }
 */
 /* Content */
-.content-large{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start:2;
-    /* -ms-grid-row-span: 1; */
-    /* outline: 2px solid rgb(40, 12, 116); */
-    padding: 1em 4em;
-    background-image: url('../images/sunset.JPG');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-/* Image */
-.image-panel-notext{
-    /* outline: 2px solid rgb(116, 12, 12); */
-    /* padding: 20em; */
-    /* background-position: bottom left; */
-}
-.image-panel-text-overlay{
-    color: white;
-    /* font-family: Playfair Display;  */
-    font-weight: 100;
-    font-size: 3em;
-    padding-top: 18%;
-    padding-bottom: 10%;
-    padding-right: 20%;
-}
-.image-panel{
-    background-image: url('../images/BrynBackground1.JPG');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* outline: 2px solid rgb(116, 12, 12); */
-    padding: 20em;
-    background-position: bottom left;
-}
-
 /* Header */
 .header {
     grid-column-start: 1;
@@ -76,14 +40,14 @@ a:hover {
 }
 /*
 .header div {
-     padding: 0px; 
+    padding: 0px; 
     outline: 2px solid rgb(116, 12, 12);
 }
 */
 .header-grid{
     display: grid;
     grid-template-columns: 15% 75% 10%;
-    grid-template-rows: 102px;    
+    /* grid-template-rows: 102px;     */
 }
 .header-logo-cell{
     grid-column-start: 1;
@@ -130,24 +94,77 @@ a:hover {
     grid-column-start: 6;
     -ms-grid-column-span: 1;
 }
+/* Navbar */
+    /* The dropdown container */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      /* Dropdown button */
+      .dropdown .dropbtn { 
+        border: none;
+        outline: none;
+        /* color: #000; */
+        padding: 14px 16px !important;
+        background-color: #fff;
+        font-family: Avenir;
+        font-size:1.3vw;
+        font-weight: 100;
+        margin: 0; /* Important for vertical align on mobile phones */
+      }
+      /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        /* min-width: 160px; */
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #fff;
+      }
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    /* The navbar container */
+    .navbar {
+        overflow: hidden;
+        background-color: #fff;
+        font-family:'Avenir';
+        /* src: url('/fonts/AvenirLTStd-Black.otf)'); */
+        font-size: 1.2vw;
+        font-weight:100;
+        }
+    
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      color: #000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      /*background-color: rgb(236, 231, 231);*/
+      color:slategrey
+    }
 /* Search */
-#searchBar{
-    width:85%;
-    height:22px;
-    border-radius:3px;
-    border:1px solid #eaeaea;
-    padding: 5px 10px;
-    font-size:12px;
-}
-#searchWrapper{
-    position:relative;
-}
-#searchWrapper::after{
-    content: '🔍';
-    position: absolute;
-    top:2px;
-    right:15px;
-}
 .header-search{
     grid-column-start: 3;
     -ms-grid-column-span: 1;
@@ -205,6 +222,41 @@ a:hover {
     max-height: 100px;
     grid-area:image;
 }
+.content-large{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:2;
+    /* -ms-grid-row-span: 1; */
+    /* outline: 2px solid rgb(40, 12, 116); */
+    padding: 1em 4em;
+    background-image: url('../images/sunset.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Image */
+.image-panel-notext{
+    /* outline: 2px solid rgb(116, 12, 12); */
+    /* padding: 20em; */
+    /* background-position: bottom left; */
+}
+.image-panel-text-overlay{
+    color: white;
+    /* font-family: Playfair Display;  */
+    font-weight: 100;
+    font-size: 3em;
+    padding-top: 18%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+}
+.image-panel{
+    background-image: url('../images/BrynBackground1.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* outline: 2px solid rgb(116, 12, 12); */
+    padding: 20em;
+    background-position: bottom left;
+}
+
 /* Footer */
 .footer {
     grid-column-start: 1;
@@ -366,73 +418,21 @@ a:hover {
 	width:100%;
 	height:100%;
 }
-/* Navbar */
-    /* The dropdown container */
-      .dropdown {
-        float: left;
-        overflow: hidden;
-      }
-      
-      /* Dropdown button */
-      .dropdown .dropbtn { 
-        border: none;
-        outline: none;
-        /* color: #000; */
-        padding: 14px 16px !important;
-        background-color: #fff;
-        font-family: Avenir;
-        font-size:1.3vw;
-        font-weight: 100;
-        margin: 0; /* Important for vertical align on mobile phones */
-      }
-      /* Dropdown content (hidden by default) */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #fff;
-        /* min-width: 160px; */
-        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-        z-index: 1;
-      }
-      
-      /* Links inside the dropdown */
-      .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-      
-      /* Add a grey background color to dropdown links on hover */
-      .dropdown-content a:hover {
-        background-color: #fff;
-      }
-      
-      /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-    /* The navbar container */
-    .navbar {
-        overflow: hidden;
-        background-color: #fff;
-        font-family:'Avenir';
-        /* src: url('/fonts/AvenirLTStd-Black.otf)'); */
-        font-size: 1.2vw;
-        font-weight:100;
-        }
-    
-    /* Links inside the navbar */
-    .navbar a {
-      float: left;
-      color: #000;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      /*background-color: rgb(236, 231, 231);*/
-      color:slategrey
-    }
+/* #searchBar{
+    width:85%;
+    height:22px;
+    border-radius:3px;
+    border:1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size:12px;
+}
+#searchWrapper{
+    position:relative;
+}
+#searchWrapper::after{
+    content: '🔍';
+    position: absolute;
+    top:2px;
+    right:15px;
+    body {
+} */
