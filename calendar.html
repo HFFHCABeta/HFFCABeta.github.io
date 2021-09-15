@@ -16,42 +16,41 @@
     <title>Calendar</title>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <div id="header"></div>
+        </div>
+        <div class="calendar-image-panel">
+            <div class="calendar-container">
 
-    <div class="header">
-        <div id="header"></div>
-    </div>
-    <div class="calendar-image-panel">
-        <div class="calendar-container">
-
-            <iframe id="embCalendar" class="iFrame-calendar"></iframe>
-            <script>
-                var url_string = (window.location.href).toLowerCase();
-                var url = new URL(url_string);
-                var s = url.searchParams.get("s");
-                var iframe = document.getElementById('embCalendar');
-                // Calendars are not pointing to the community gmail account as of 9/10/21
-                iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                    switch (s) {
-                        case '1': /*Calls*/
-                            // iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                               iframe.src = "https://calendar.google.com/calendar/embed?src=ikpfsk5pp9bkiqut319j43llcs%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                            //   iframe.src = "https://calendar.google.com/calendar/embed?src=aGZmaGNhY29tbXVuaXR5MUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=aWtwZnNrNXBwOWJraXF1dDMxOWo0M2xsY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%23AD1457&color=%230B8043&title=Community%20Calls%20-%20Health%20Freedom%20for%20Humanity%2C%20California";
-                            break;
-                        case '2': /*Live events*/
-                            // iframe.src = "https://calendar.google.com/calendar/embed?src=7c635e2ehcq6kp61djvgebf6t8%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                            iframe.src = "https://calendar.google.com/calendar/embed?src=org90vf9v87ipg2hgniicvh0bc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                            break;
-                        case '3': /*education*/
-                            // iframe.src = "https://calendar.google.com/calendar/embed?src=bmojftm7c7lhk4t85g7om02bfc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                            iframe.src = "https://calendar.google.com/calendar/embed?src=org90vf9v87ipg2hgniicvh0bc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
-                            break;
-                }
-            </script>
+                <iframe id="embCalendar" class="iFrame-calendar"></iframe>
+                <script>
+                    var url_string = (window.location.href).toLowerCase();
+                    var url = new URL(url_string);
+                    var s = url.searchParams.get("s");
+                    var iframe = document.getElementById('embCalendar');
+                    // Calendars are not pointing to the community gmail account as of 9/10/21
+                    iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                        switch (s) {
+                            case '1': /*Calls*/
+                                // iframe.src = "https://calendar.google.com/calendar/embed?src=r3g0tc6p34p5menaq3l7ks4c04%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                iframe.src = "https://calendar.google.com/calendar/embed?src=ikpfsk5pp9bkiqut319j43llcs%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                //   iframe.src = "https://calendar.google.com/calendar/embed?src=aGZmaGNhY29tbXVuaXR5MUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=aWtwZnNrNXBwOWJraXF1dDMxOWo0M2xsY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%23AD1457&color=%230B8043&title=Community%20Calls%20-%20Health%20Freedom%20for%20Humanity%2C%20California";
+                                break;
+                            case '2': /*Live events*/
+                                // iframe.src = "https://calendar.google.com/calendar/embed?src=7c635e2ehcq6kp61djvgebf6t8%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                iframe.src = "https://calendar.google.com/calendar/embed?src=org90vf9v87ipg2hgniicvh0bc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                break;
+                            case '3': /*education*/
+                                // iframe.src = "https://calendar.google.com/calendar/embed?src=bmojftm7c7lhk4t85g7om02bfc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                iframe.src = "https://calendar.google.com/calendar/embed?src=org90vf9v87ipg2hgniicvh0bc%40group.calendar.google.com&ctz=America%2FLos_Angeles?mode=WEEK";
+                                break;
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="footer">
         </div>
     </div>
-    <div class="footer">
-
-    </div>
-    
 </body>
 </html>
