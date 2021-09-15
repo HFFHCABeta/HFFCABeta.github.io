@@ -204,14 +204,14 @@ a:hover {
       -ms-grid-column-span: 1;
   }
 .header-icon-search::before {
-    content:  url('../images/search.png');
+    /* content:  url('../images/search.png'); */
   }
 .header-icon-account {
     grid-column-start: 4;
     -ms-grid-column-span: 1;
 }
 .header-icon-account::before {
-    content: url('../images/contact.png');
+    /* content: url('../images/contact.png'); */
 }
 .header-icon-shop {
     grid-column-start: 6;
@@ -219,7 +219,7 @@ a:hover {
 }
 .header-icon-shop::before {
     /* font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f290"; */
-    content:  url('../images/shop.png');
+    /* content:  url('../images/shop.png'); */
 }
 /* Image */
 .character >img {
