@@ -232,7 +232,7 @@ a:hover {
     grid-row-start:2;
     /* -ms-grid-row-span: 1; */
     /* outline: 2px solid rgb(40, 12, 116); */
-    padding: 1em 4em;
+    padding: 3em 4em;
     background-image: url('../images/sunset.JPG');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -249,9 +249,10 @@ a:hover {
     /* font-family: Playfair Display;  */
     font-weight: 100;
     font-size: 3em;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
     padding-right: 20%;
+    padding-left: 20%;
 }
 .image-panel{
     background-image: url('../images/BrynBackground1.JPG');
