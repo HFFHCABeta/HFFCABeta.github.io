@@ -121,6 +121,16 @@ a:hover {
       /*background-color: rgb(236, 231, 231);*/
       color:slategrey
     }
+    .hamburger {
+        background-color:transparent;
+        color: #000;
+        border:0;
+
+    }
+    .hamburger:focus{
+        outline:none;
+        
+    }
     /* The dropdown container */
     .dropdown {
         float: left;
