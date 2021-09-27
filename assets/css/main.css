@@ -107,8 +107,7 @@ a:hover {
         /* src: url('/fonts/AvenirLTStd-Black.otf)'); */
         font-size: 1.2vw;
         font-weight:100;
-        }
-    
+    }
     /* Links inside the navbar */
     .navbar a {
       float: left;
@@ -125,7 +124,7 @@ a:hover {
         background-color:transparent;
         color: #000;
         border:0;
-
+        cursor: pointer;
     }
     .hamburger:focus{
         outline:none;
@@ -135,10 +134,10 @@ a:hover {
     .dropdown {
         float: left;
         overflow: hidden;
-      }
+    }
       
       /* Dropdown button */
-      .dropdown .dropbtn { 
+    .dropdown .dropbtn { 
         border: none;
         outline: none;
         /* color: #000; */
@@ -435,6 +434,11 @@ a:hover {
 	height:100%;
 }
 
+@media screen and (max-width: 767px) {
+    .header-grid {
+        display: none;
+    }
+}
 /* #searchBar{
     width:85%;
     height:22px;
@@ -453,4 +457,3 @@ a:hover {
     right:15px;
     body {
 } */
-
