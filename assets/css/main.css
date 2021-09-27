@@ -100,6 +100,15 @@ a:hover {
 }
 /* Navbar */
     /* The navbar container */
+    /* note: this needs to be tested */
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    /* END note: this needs to be tested */
     .navbar {
         overflow: hidden;
         background-color: #fff;
@@ -438,6 +447,11 @@ a:hover {
 @media screen and (max-width: 767px) {
     .navbar {
         display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar.show {
+        display: flex;
     }
     .hamburger {
         display: block;
