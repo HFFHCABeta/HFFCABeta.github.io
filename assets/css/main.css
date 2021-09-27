@@ -435,7 +435,7 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .header-grid {
+    .navbar {
         display: none;
     }
 }
