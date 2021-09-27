@@ -439,6 +439,9 @@ a:hover {
     .navbar {
         display: none;
     }
+    .hamburger {
+        display: block;
+    }
 }
 /* #searchBar{
     width:85%;
