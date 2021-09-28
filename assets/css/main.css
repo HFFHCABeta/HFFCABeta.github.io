@@ -59,7 +59,8 @@ a:hover {
 }
 .header-logo-img{
     max-width: 90%;
-    content: url('../images/hffhca_logo.png');
+    /* content: url('../images/hffhca_logo.png'); */
+    content: url('../images/hffhblklogoa.png');
     /* padding-top:1em; */
 }
 .header-menu{
