@@ -271,9 +271,9 @@ a:hover {
     /* outline: 2px solid rgb(40, 12, 116); */
     padding: 3em 4em;
     /* background-image: url('../images/sunset.JPG'); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-origin: content-box;
+    background-origin: content-box; */
 }
 /* Image */
 /* .image-panel-notext{
@@ -301,6 +301,9 @@ a:hover {
 }
 .image-panel-notext {
     background-image: url('../images/sunset.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
 }
 
 /* Footer */
