@@ -451,7 +451,7 @@ a:hover {
     box-sizing: border-box;
 }
 .calendar-image-panel{
-    background-image: url('../images/BrynBackground1.JPG');
+    /* background-image: url('../images/BrynBackground1.JPG'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* outline: 2px solid rgb(116, 12, 12); */
