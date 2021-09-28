@@ -270,8 +270,20 @@ a:hover {
     /* -ms-grid-row-span: 1; */
     /* outline: 2px solid rgb(40, 12, 116); */
     padding: 3em 4em;
-    /* background-image: url('../images/sunset.JPG'); */
-    /* background-repeat: no-repeat;
+    background-image: url('../images/sunset.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+.content-large-no-image{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:2;
+    /* -ms-grid-row-span: 1; */
+    /* outline: 2px solid rgb(40, 12, 116); */
+    padding: 3em 4em;
+    /* background-image: url('../images/sunset.JPG');
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-origin: content-box; */
 }
@@ -298,12 +310,6 @@ a:hover {
     /* outline: 2px solid rgb(116, 12, 12); */
     padding: 20em;
     background-position: bottom left;
-}
-.image-panel-notext {
-    background-image: url('../images/sunset.JPG');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-origin: content-box;
 }
 
 /* Footer */
