@@ -2,6 +2,10 @@
     font-family: 'Gratise';
     src: url('../fonts/gratise/Gratise.ttf'), url('../fonts/gratise/Gratise.otf');
 }
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir_ff/AvenirLTStd-Black.otf');
+}
 
 * {
     margin: 0;
@@ -69,9 +73,9 @@ a:hover {
     /* padding-top:1em; */
 }
 .header-logo-text{
-    padding:8em;
     font-family: 'Gratise';
     text-transform: lowercase;
+    font-size:x-large;
 }
 .header-logo-text::before {
     content: 'California';
