@@ -63,6 +63,10 @@ a:hover {
     content: url('../images/HFFHlogoblkA.png');
     /* padding-top:1em; */
 }
+.header-logo-text{
+    padding:8em;
+    content: 'California';
+}
 .header-menu{
     grid-column-start: 2;
     -ms-grid-column-span: 1;
