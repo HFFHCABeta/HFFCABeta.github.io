@@ -491,7 +491,7 @@ a:hover {
         display: block;
     }
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .navbar {
         display: block;
         width: 100%;
@@ -500,7 +500,7 @@ a:hover {
     .hamburger {
         display: none;
     }
-}
+} */
 /* #searchBar{
     width:85%;
     height:22px;
