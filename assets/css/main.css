@@ -2,10 +2,10 @@
     font-family: 'Gratise';
     src: url('../fonts/gratise/Gratise.ttf'), url('../fonts/gratise/Gratise.otf');
 }
-@font-face {
+/* @font-face {
     font-family: 'Avenir';
-    src: url('../fonts/avenir_ff/AvenirLTStd-Black.otf');
-}
+    src: url('../fonts/avenir_ff/AvenirLTStd-Black.otf'), url('../fonts/avenir_ff/AvenirLTStd-Book.otf'), url('../fonts/avenir_ff/AvenirLTStd-Roman.otf');
+} */
 
 * {
     margin: 0;
