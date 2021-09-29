@@ -285,7 +285,7 @@ a:hover {
     grid-row-start:2;
     /* -ms-grid-row-span: 1; */
     /* outline: 2px solid rgb(40, 12, 116); */
-    padding: 3em 4em;
+    /* padding: 3em 4em; */
     /* background-image: url('../images/sunset.JPG');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -469,9 +469,9 @@ a:hover {
 .calendar-image-panel{
     /* background-image: url('../images/BrynBackground1.JPG'); */
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     /* outline: 2px solid rgb(116, 12, 12); */
-    background-position: top left;
+    /* background-position: top left; */
     background-image: none;
 }
 .iFrame-calendar {
