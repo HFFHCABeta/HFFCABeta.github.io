@@ -489,6 +489,11 @@ a:hover {
         display: flex;   
         font-size:small;
         grid-column-start:5;
+        color:#000;
+    }
+    a:hover {
+        /* color: #47807d; */
+        color:rgb(29, 38, 46);
     }
     .dropdown .dropbtn {
         font-size:small;   
