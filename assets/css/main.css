@@ -494,7 +494,7 @@ a:hover {
     }
     .hamburger {
         display: block;
-        padding: 100%;
+        /* padding: 100%; */
     }
     /* .hamburger-menu {
         padding: 25%;
