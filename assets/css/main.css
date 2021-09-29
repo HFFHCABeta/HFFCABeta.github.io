@@ -482,7 +482,11 @@ a:hover {
         flex-direction: column;
     }
     .navbar.show {
-        display: flex;
+        display: flex;   
+        font-size:small;
+    }
+    .dropdown .dropbtn {
+        font-size:small;   
     }
     .hamburger {
         display: block;
