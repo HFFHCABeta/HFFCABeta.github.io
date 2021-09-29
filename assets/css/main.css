@@ -488,6 +488,7 @@ a:hover {
     .navbar.show {
         display: flex;   
         font-size:small;
+        grid-column-start:5;
     }
     .dropdown .dropbtn {
         font-size:small;   
