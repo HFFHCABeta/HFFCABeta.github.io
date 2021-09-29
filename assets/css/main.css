@@ -154,6 +154,9 @@ a:hover {
         cursor: pointer;
         display: none;
     }
+    .hamburger-menu {
+        grid-column-start: 6;
+    }
     .hamburger:focus{
         outline:none;
         
